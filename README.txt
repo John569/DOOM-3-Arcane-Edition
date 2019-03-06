@@ -1,14 +1,5 @@
-    ____   ____   ____                           _____  ____   ______ ______
-   / __ \ / __ ) / __ \ ____   ____   ____ ___  |__  / / __ ) / ____// ____/
-  / /_/ // __  |/ / / // __ \ / __ \ / __ `__ \  /_ < / __  |/ /_   / / __  
- / _, _// /_/ // /_/ // /_/ // /_/ // / / / / /___/ // /_/ // __/  / /_/ /  
-/_/ |_|/_____//_____/ \____/ \____//_/ /_/ /_//____//_____//_/     \____/   
-_________________________________________
-
-
-RBDOOM-3-BFG Readme - https://github.com/RobertBeckebans/RBDOOM-3-BFG
-
-Thank you for downloading RBDOOM-3-BFG.
+Doom 3 Arcane Edition Readme - https://github.com/John569/DOOM-3-Arcane-Edition
+Thank you for downloading DOOM-3-Arcane-Edition.
 
 
 
@@ -96,7 +87,7 @@ any other Steam features.
 
 Bink:
 -----
-The RBDoom3BFG Edition GPL Source Code release includes functionality for rendering Bink Videos through FFmpeg.
+The DOOM-3-Arcane-Edition GPL Source Code release includes functionality for rendering Bink Videos through FFmpeg.
 
 
 Back End Rendering of Stencil Shadows:
@@ -125,10 +116,10 @@ ___________________________________
 
 This project's GitHub.net Git repository can be checked out through Git with the following instruction set: 
 
-	> git clone https://github.com/RobertBeckebans/RBDOOM-3-BFG.git
+	> git clone https://github.com/John569/DOOM-3-Arcane-Edition.git
 
 If you don't want to use git, you can download the source as a zip file at
-	https://github.com/RobertBeckebans/RBDOOM-3-BFG/archive/master.zip
+	https://github.com/John569/DOOM-3-Arcane-Edition/archive/master.zip
 
 
 
@@ -147,13 +138,13 @@ __________________________________________________________
 4. Generate the VC13 projects using CMake by doubleclicking a matching configuration .bat file in the neo/ folder.
 
 5. Use the VC13 solution to compile what you need:
-	RBDOOM-3-BFG/build/RBDoom3BFG.sln
+	DOOM-3-Arcane-Edition/build/Doom3Arcane.sln
 	
 6. Download ffmpeg-20151105-git-c878082-win32-shared.7z from ffmpeg.zeranoe.com/builds/win32/shared
  	or
 	ffmpeg-20151105-git-c878082-win64-shared.7z from ffmpeg.zeranoe.com/builds/win64/shared
 
-7. Extract the FFmpeg DLLs to your current build directory under RBDOOM-3-BFG/build/
+7. Extract the FFmpeg DLLs to your current build directory under DOOM-3-Arcane-Edition/build/
 
 
 __________________________________
@@ -162,7 +153,7 @@ __________________________________
 _________________________
 
 
-1. You need the following dependencies in order to compile RBDoom3BFG with all features:
+1. You need the following dependencies in order to compile Doom3Arcane with all features:
  
 	On Debian or Ubuntu:
 
@@ -197,7 +188,7 @@ _________________________
 	> cd neo/
 	> ./cmake-eclipse-linux-profile.sh
 	
-3. Compile RBDOOM-3-BFG targets with
+3. Compile DOOM-3-Arcane-Edition targets with
 
 	> cd ../build
 	> make
@@ -209,7 +200,7 @@ __________________________________________
 
 
 If you use the prebuilt Win32 binaries then simply extract them to your
-C:\Program Files (x86)\Steam\SteamApps\common\Doom 3 BFG Edition\ directory and run RBDoom3BFG.exe.
+C:\Program Files (x86)\Steam\SteamApps\common\Doom 3 BFG Edition\ directory and run Doom3Arcane.exe.
 
 
 
@@ -270,12 +261,12 @@ Anyway:
 	/your/path/to/Steam/steamapps/common/DOOM 3 BFG Edition/base/
 	or, if you used SteamCMD or GOG installer with Wine, in the path you used above.
 
-4. Copy your RBDoom3BFG executable that you created in 5) or 6) and the FFmpeg DLLs to your own 
+4. Copy your Doom3Arcane executable that you created in 5) or 6) and the FFmpeg DLLs to your own 
    Doom 3 BFG directory (/path/to/Doom3BFG).
    
    Your own Doom 3 BFG directory now should look like:
 	/path/to/Doom3BFG/
-	 ->	RBDoom3BFG (or RBDoom3BFG.exe on Windows)
+	 ->	Doom3Arcane (or Doom3Arcane.exe on Windows)
 	 -> avcodec-55.dll
 	 -> avdevice-55.dll
 	 -> avfilter-4.dll
@@ -289,7 +280,7 @@ Anyway:
 		 ->	_common.crc
 		 ->	(etc)
 
-5. Run the game by executing the RBDoom3BFG executable.
+5. Run the game by executing the Doom3Arcane executable.
 
 6. Enjoy
 
@@ -377,13 +368,13 @@ ___________________________________________________
 11) BUG REPORTS
 __________________________________________
 
-RBDOOM-3-BFG is not perfect, it is not bug free as every other software.
+DOOM-3-Arcane-Edition is not perfect, it is not bug free as every other software.
 For fixing as much problems as possible we need as much bug reports as possible.
 We cannot fix anything if we do not know about the problems.
 
 The best way for telling us about a bug is by submitting a bug report at our GitHub bug tracker page:
 
-	https://github.com/RobertBeckebans/RBDOOM-3-BFG/issues?state=open
+	https://github.com/John569/DOOM-3-Arcane-Edition/issues?state=open
 
 The most important fact about this tracker is that we cannot simply forget to fix the bugs which are posted there. 
 It is also a great way to keep track of fixed stuff.
@@ -395,9 +386,9 @@ If you want to report an issue with the game, you should make sure that your rep
     * If appropriate, send a console log, a screenshot, an strace ..
     * If you are sending a console log, make sure to enable developer output:
 
-              RBDoom3BFG.exe +set developer 1 +set logfile 2
+              Doom3Arcane.exe +set developer 1 +set logfile 2
 			  
-		You can find your qconsole.log on Windows in C:\Users\<your user name>\Saved Games\id Software\RBDOOM 3 BFG\base\
+		You can find your qconsole.log on Windows in C:\Users\<your user name>\Saved Games\id Software\DOOM 3 Arcane Edition\base\
 
 NOTE: We cannot help you with OS-specific issues like configuring OpenGL correctly, configuring ALSA or configuring the network.
 	
@@ -412,11 +403,11 @@ mod directory, you should first specify your mod directory adding the following 
 
 "+set fs_game modDirectoryName"
 
-so it would end up looking like: RBDoom3BFG +set fs_game modDirectoryName
+so it would end up looking like: Doom3Arcane +set fs_game modDirectoryName
 
 
-IMPORTANT: RBDOOM-3-BFG does not support old Doom 3 modiciations that include sourcecode modifications in binary form (.dll)
-You can fork RBDOOM-3-BFG and create a new renamed binary that includes all required C++ game code modifications.
+IMPORTANT: DOOM-3-Arcane-Edition does not support old Doom 3 modiciations that include sourcecode modifications in binary form (.dll)
+You can fork DOOM-3-Arcane-Edition and create a new renamed binary that includes all required C++ game code modifications.
 	
 ____________________________________________________________________________________
 
