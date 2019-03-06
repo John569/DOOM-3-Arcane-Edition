@@ -1,7 +1,11 @@
 Doom 3 Arcane Edition Readme - https://github.com/John569/DOOM-3-Arcane-Edition
 Thank you for downloading DOOM-3-Arcane-Edition.
 
+This version was forked from RBDoom-3-BFG on 6 March 2019
 
+This is the GPL v.3 compliant repository for my personal id Tech 4 BFG based engine called arcaneTech. All changes made to arcaneTech's renderer and sound engine will be added here. The aim is to provide an updated Doom 3 BFG game while keeping arcaneTech closed source and providing the modified GPL code here.
+
+Updates will be slow as I am new to game programming and I am currently doing C++ courses through Udemy.com. The initial commit does not differ from RBDoom-3-BFG as at 6 March 2019.
 
 _______________________________________
 
